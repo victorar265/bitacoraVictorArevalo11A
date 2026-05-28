@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Victor Arevalo</title>
+    <link rel="icon" type="image/png" href="c:\Users\Alumno Capouilliez\Documents\Arevalo11A\recursos\Lcapurojo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /*CSS-Diseño, configurar en cascada(Esto si es un lenguaje de progra)*/
+        html, body{
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: rgb(131, 86, 245);
+            
+        }
+        header{
+            padding: 20px;
+            background-color: rgb(8, 64, 249);
+        }
+        main{
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px solid rgb(69, 63, 242);
+            background-color: rgb(166, 145, 243);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bitacora Segunda y Tercera unidad</h1>
+    </header>
+    <main>
+        <h4> Contenido de la pagina WEB</h4>
+        <div class="semana">
+        <h2>Semana 1: Introducción a Arduino</h2>
+        <p>Consulta el detalle completo de la sesión en el visor interactivo a continuación:</p>
+        
+        <div class="contenedor-pdf">
+            <embed src="recursos/Introducción Arduino- Victor Arevalo.docx (1).pdf" 
+                type="application/pdf" 
+                width="100%" 
+                height="600px" />
+        </div>
+    </div>
+
+    <div class="semana">
+        <h2>Semana 2:introduccion a la Robotica </h2>
+        <p>En esta sesión exploramos los fundamentos de la robótica y el funcionamiento de los componentes básicos. A continuación, se presenta un video demostrativo de la práctica:</p>
+        <video controls class="video-bitacora">
+        <source src="recursos/introrobotica_victorarevalo.mp4" type="video/mp4">
+    </video>
+    </div>
+    </main>
+    <footer>
+        <span>@victoreliasar200</span>
+        <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="75" width="300">
+    </footer>
+</body>
+</html>

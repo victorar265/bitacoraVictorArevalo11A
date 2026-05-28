@@ -1,0 +1,56 @@
+h1 {
+    color: #fff; 
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+
+    text-shadow: 
+        0 0 7px #fff,          
+        0 0 10px #fff, 
+        0 0 21px #fff, 
+        0 0 42px #a855f7,       
+        0 0 82px #a855f7,      
+        0 0 92px #a855f7,      
+        0 0 102px #a855f7; 
+}
+footer img {
+    transition: transform 0.3s ease; /* Esto hace que el zoom sea suave */
+    cursor: pointer;                /* Cambia el cursor a una mano al pasar encima */
+}
+
+/* Estado cuando pasas el mouse (Hover) */
+footer img:hover {
+    transform: scale(1.15); /* Aumenta el tamaño un 15% */
+}
+
+.semana {
+    background-color: #ffffff;    /* Fondo blanco para que resalte */
+    border-radius: 12px;          /* Bordes redondeados elegantes */
+    padding: 25px;                /* Espacio interno para que el texto respire */
+    margin: 20px auto;            /* Espacio entre tarjetas y centradas */
+    width: 95% !important;   /* Ocupará casi todo el ancho disponible */
+    max-width: 1200px;             /* Ancho máximo para que no se estire demasiado */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    border-left: 5px solid #a855f7; /* Una línea morada neón a la izquierda */
+    text-align: left;             /* Texto alineado a la izquierda para mejor lectura */
+    transition: transform 0.3s ease; /* Para que interactúe al pasar el mouse */
+    display: flex;
+    flex-direction: column;
+    
+}
+.video-bitacora {
+    width: 100%;             /* Se adapta al ancho de la tarjeta .semana */
+    max-width: 100%;
+    height: auto;            /* Mantiene la proporción original del video */
+    border-radius: 8px;      /* Bordes redondeados */
+    margin: 20px 0;          /* Espacio arriba y abajo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra para que resalte */
+    background-color: #000;  /* Fondo negro mientras carga */
+}
+
+/* Efecto opcional: que la tarjeta se eleve un poco al pasar el mouse */
+.semana:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.2); /* Sombra morada suave */
+}
+
